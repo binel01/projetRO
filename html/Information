@@ -1,0 +1,17 @@
+
+Pour la partie 1 voici le nom des inputs : 
+
+sum = "somme entrée par l'utilisateur"
+time = "temps en minutes"
+poids_hour = "le poids du critère heur"
+poids_app = "le poids du critère appréciation"
+poids_tarif = "le poids du critère tarif"
+
+C'est aussi la clé pour jStorage
+
+format des contraintes.
+clé = C+n° contrainte.
+valeur = 
+            P#ville1#ville2     (préfère)
+            A#ville1            (absolument)
+            I#ville1#ville2     (implication)

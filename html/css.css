@@ -1,0 +1,65 @@
+body {
+    margin-bottom: 0px;
+    margin-left: 10%;    
+    margin-right: 10%;
+   }
+
+.entete{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top : 10px;
+}
+
+input[type="number"]{
+    height: 40px;
+    float : right;
+    margin-right: 40px;
+}
+
+#validation{
+    text-align: center;
+}
+
+#validation > button {
+    height: 40px;
+}
+
+#tab-contrainte{
+}
+
+.ville{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top : 10px;
+}
+
+#menu{
+    margin-top: 20px;
+}
+
+#container2{
+ display : none;   
+}
+
+#pref{
+    color: black;
+    padding : 5px;
+    background-color: greenyellow;
+}
+
+#cont{
+    color : black;
+}
+
+#contrainte-finale p{
+    background-color: greenyellow;
+}
+
+#btn-validation{
+    text-align: center;
+}
+
+#btn-validation button{
+    height: 40px;
+    width: auto;
+}
