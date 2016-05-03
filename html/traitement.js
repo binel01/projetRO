@@ -31,7 +31,7 @@ function traitement(){
     }
     
     //*/
-    console.log("Les contraintes ajoutées sont: " + contraintes);
+    //console.log("Les contraintes ajoutées sont: " + contraintes);
     
     
 /* * *********************************************************************************************
@@ -171,7 +171,7 @@ console.log("obj: " + glp_mip_obj_val(lp));
         document.getElementById('container3').style.color = "black";
 var container3 = document.getElementById('container3') ;
 
-container3.innerHTML = "<h1 style=\" margin-top : 20px;\"> La liste des sites à visiter est : </h1><br/>";
+container3.innerHTML = "<h1 style=\" margin-top : 20px;\"> La liste des sites que vous pouvez visiter est : </h1><br/>";
 
 
 var message;
@@ -185,7 +185,7 @@ for (var k = 1; k <= glp_get_num_cols(lp); k++) {
     compt++;
 }
 
-alert(message);
+//alert(message);
         
 
 
