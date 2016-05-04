@@ -6,8 +6,8 @@
         <meta charset="ASCII"/>
         
         <link href="./bootstrap.css" rel="stylesheet" />
-        <link rel="stylesheet" href="../assets/css/main.css" />
         <link href="./css.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
     </head>
     <body>
 
@@ -19,10 +19,9 @@
         <!-- Nav -->
           <nav id="nav">
             <ul>
-              <li><a href="../accueil.html">Accueil</a></li>
-              <li><a href="../accueil.html#work">Sites Touristiques</a></li>
+              <li><a href="../index.html">Accueil</a></li>
+              <li><a href="../index.html#work">Sites Touristiques</a></li>
               <li class="active"><a href="#">Planifier Visite</a></li>
-              <li><a href="../accueil.html#footer">Nous Contacter</a></li>
             </ul>
           </nav>
 
@@ -31,7 +30,7 @@
 
 
 
-       <div id="main">
+       <div id="main" class="container">
            <div id="menu" >
                <h2> <span id="pref">  Preferences  </span> >>>>>> <span id="cont">  Contraintes  </span> </h2>
                <br/>
@@ -216,7 +215,12 @@
                     <button class="btn btn-primary" id="reset">Annuler</button>
                 </div>
             </div>
+           <div id="container3">
+                
+            </div> 
         </div>
+        
+           
        </div>
 
 
@@ -235,17 +239,18 @@
           </ul>
 
         <!-- Menu -->
-          <ul class="menu">
-            <li>&copy; 2016 Tous droits réservés</a></li>
-          </ul>
-
-      </footer style="padding-top: 10px">
+        <ul>
+            <li style="text-align: right; margin-right: 30px;">&copy; 2016 Tous droits réservés</li>
+        </ul>
+        
+      </footer>
 
 
         <script src="./jquery.js"charset="utf-8"> </script> 
         <script src="./jquery.jStorage.js"charset="utf-8"> </script>                
         <script src="./preference.js" charset="utf-8"> </script>        
-        <script src="./contraintes.js" charset="utf-8"> </script>     
+        <script src="./contraintes.js" charset="utf-8"> </script>       
+        <script src="../js/glpk.min.js" charset="utf-8"> </script>     
         <script src="./traitement.js" charset="utf-8"> </script>        
     </body>
 </html>
